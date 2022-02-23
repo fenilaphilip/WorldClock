@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="layout.css"/>
+        <title>World clock</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <h1>WHAT TIME IS NOW?</h1>
+        <table>
+            <tr>
+                <td id="description">
+                    <p>
+                        Here, you can review current local time.For your 
+                        convenience we provided the time in 24 hour time and 
+                        12 hour am/pm formats.Dates are provided by day, month 
+                        and year respectively. 
+                    </p>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th> Today</th>
+                            <td><div id="date">22 feb 2022</div></td>
+                            <td><div id="day">Tuesday</div></td>
+                        </tr>
+                        <tr>
+                            <th>Current time</th>
+                            <td> <div id="time"> 18:10 </div></td>
+                            <td><div id="time_twelve"></div></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="2">
+                                <span id="update">
+                                    <button type="button" 
+                                            onclick="update()" 
+                                            >Click here  to update!
+                                    </button>
+                                </span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="clock.js">
+        </script>
+    </body>
+</html>

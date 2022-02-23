@@ -1,0 +1,40 @@
+
+/* 
+    Created on : Feb 22, 2022, 5:24:35 PM
+    Author     : fenila
+*/
+h1{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color:#fd9b91;
+}
+body{
+    background-color:cornsilk;
+}
+#description {
+    width: 45%;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 10px;
+    background-color:#a6fe73;
+}
+div {
+    width: 100px;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 5px;
+    background-color: #a8cfd9;
+}
+#update {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 20px;
+  margin: 4px 2px;
+  
+}
